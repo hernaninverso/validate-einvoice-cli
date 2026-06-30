@@ -1,0 +1,48 @@
+{
+  "name": "@eleata/validate-einvoice",
+  "version": "0.1.0",
+  "description": "Validate EU e-invoices (Peppol BIS, EN 16931, XRechnung, Factur-X, UBL, CII) in CI/CD — with a plain-English fix per error. Backed by eleata.io.",
+  "type": "module",
+  "bin": {
+    "validate-einvoice": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "error-fixes.json",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "e-invoice",
+    "einvoice",
+    "peppol",
+    "xrechnung",
+    "fatturapa",
+    "factur-x",
+    "zugferd",
+    "en16931",
+    "ubl",
+    "cii",
+    "validation",
+    "ci",
+    "eu-invoicing",
+    "cli"
+  ],
+  "license": "MIT",
+  "author": "Inverso Hub S.R.L.",
+  "homepage": "https://eleata.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hernaninverso/validate-einvoice-cli.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.0",
+    "typescript": "^5.9.3"
+  }
+}
