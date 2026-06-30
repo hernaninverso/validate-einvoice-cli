@@ -1,6 +1,6 @@
 {
   "name": "@eleata/validate-einvoice",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Validate EU e-invoices (Peppol BIS, EN 16931, XRechnung, Factur-X, UBL, CII) in CI/CD — with a plain-English fix per error. Backed by eleata.io.",
   "type": "module",
   "bin": {
